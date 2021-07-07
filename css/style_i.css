@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	width:100%;
+	height: 700px;
+	background: #fc4a1a;  /* fallback for old browsers */
+	background: -webkit-linear-gradient (to right, rgba(247,183,51,0.4), rgba(252,74,26,0.4) );  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(247,183,51,0.4), rgba(252,74,26,0.4) ), url(../img/img1_1.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+.logo-logo{
+	height:100px; 
+	width:200px; 
+	float:left; 
+	display:block;
+	background: url(../img/Logo.png);
+	background-size: 200px;
+	margin-bottom:30px;
+	margin-left: 20px;
+}
+
+.logo-logo a{
+	display: block; 
+	height:100px; 
+	width:200px;
+	
+}
+
+nav{
+	text-align: right;
+	padding: 30px 50px 0 0;
+}
+
+nav a{
+	color: #ffff;
+	font-weight: 300;
+	text-decoration:none;
+	margin-right:4px;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+header .textos-header{
+	display: flex;
+	height:300px;
+	width:100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction:column;
+	text-align:center
+}
+.textos-header h1{
+	font-size: 60px;
+	color: #fff;
+}
+.textos-header h2{
+	font-size: 35px;
+	font-weight:300;
+	color: #fff;
+}
+.texto{
+	margin:auto;
+	display:block;
+	justify-content:center;
+	width:120px;
+	height: 40px;
+	float:bottom;
+	background: black;
+	align-items:center;
+	border-radius: 5px;
+}
+.texto a:hover{
+	margin:auto;
+	background:white;
+	color:black;
+	border-radius: 5px;
+}
+.texto a{
+	display:inline-block;
+	height:40px;
+	width:120px;
+	color:white;
+	text-decoration:none;
+	padding-left:28px;
+	padding-top:10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+footer{
+	background: #000000;
+	padding: 40px 0 30px 0;
+	margin:auto;
+	overflow: hidden;
+	width:100%;
+	height:180px
+}
+
+.contenedor-footer{
+	display:flex;
+	width:90%;
+	justify-content: space-evenly;
+	margin:auto;
+	padding-bottom:20px;
+	border-bottom: 1px solid #fff;
+}
+
+
+.content-foo{
+	text-align: center;
+}
+
+.content-foo h4{
+	color: #ffff;
+	border-bottom:3px solid #FF9E00;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+.content-foo p{
+	color: #fff;
+}
+
+.titulo-final{
+	text-align: center;
+	font-size: 15px;
+	margin:15px 0 0 0;
+	color: #9e9797
+}
